@@ -1,0 +1,97 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: #fbf9f2;
+    color: rgb(26, 64, 254);
+    font-family: "ocr-a-std", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+h1{
+    text-shadow: 1px 0 10px #4888ff;
+    position: absolute;
+    top: 130px;
+    left: 160px;
+    font-size: 60px;
+    animation: moveText 6.5s infinite ease-in-out;
+}
+
+h2{
+    position: absolute;
+    top: 240px;
+    left: 160px;
+    font-size: 30px; 
+    animation: moveText 5.5s infinite ease-in-out;
+    text-decoration: underline;
+}
+
+p{
+    font-size: 16px; 
+    width: 520px;
+    position: absolute;
+}
+
+#p1{
+    top: 260px;
+    left: 560px;
+    animation: moveText 7s infinite ease-in-out;
+
+}
+
+#p2{
+    top: 380px;
+    left: 560px;
+    animation: moveText 5s infinite ease-in-out;
+}
+#p3{
+    top: 450px;
+    left: 560px;
+    animation: moveText 6s infinite ease-in-out;
+}
+
+#img1{
+    position: absolute;
+    top: 120px;
+    right: 290px;
+    animation: move2 8s infinite ease-in-out;
+}
+
+#img2{
+    position: absolute;
+    bottom: 120px;
+    right: 400px;
+    animation: move3 7s infinite ease-in-out;
+
+}
+
+#img3{
+    position: absolute;
+    top: 370px;
+    left: 105px;
+    animation: move 7.5s infinite ease-in-out;
+}
+
+@keyframes move {
+    0% {margin-left: 0px;}
+    50% {margin-left: 50px;}
+    100% {margin-left: 0px;}
+  }
+
+  @keyframes move2 {
+    0% {margin-right: 0px;}
+    50% {margin-right: 50px;}
+    100% {margin-right: 0px;}
+  }
+  @keyframes move3 {
+    0% {margin-right: 0px;}
+    50% {margin-right: 100px;}
+    100% {margin-right: 0px;}
+  }
+
+  @keyframes moveText {
+    0% {margin-top: 0px;}
+    50% {margin-top: 7px;}
+    100% {margin-top: 0px;}
+  }
